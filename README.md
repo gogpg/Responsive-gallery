@@ -7,5 +7,5 @@ Project for learning purposes.
 * How to hide and show elements.
 * How to smooth transaction.
 ***
-**Published at:* 
+*Published at:* 
 
