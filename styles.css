@@ -7,9 +7,12 @@ body {
 .nav {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
+
 .logo{
     width: 60px;
+    margin-top: -10px;
 }
 
 ul {
@@ -21,13 +24,21 @@ li {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .row {
     display: flex;
+    /*margin: -4px; /*kad tarp eiluciu neliktu balto tarpelio*/
 }
 
 .container {
     width: 20%;
     position: relative;
+    transition: transform 500ms;
+    display: block;
     
 }
 .container img { /*picture must fit in to parent element 100%, because it is biger originally*/
@@ -35,6 +46,7 @@ li {
     opacity: 1;
     height: auto;
     transition: .5 ease-in-out;
+    display: block;
 }
 
 .row .container:focus,
@@ -65,3 +77,41 @@ li {
     font-size: 16px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+}
+
+@media(max-width: 800px) {
+   .extra {
+    display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+   
+    li {
+    padding: 10px;
+   }
+
+   .container {
+    width: 100%;
+   }
+
+   footer {
+    justify-content: flex-start;
+    padding: 10px;
+   }
+   
+   .row .container:focus,
+   .row .container:hover{
+    transform: none;
+    z-index: 1;
+}
+
+}
