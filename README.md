@@ -2,7 +2,7 @@
 Project for learning purposes. 
 ### Learning:
 ***
-* HTML CSS JS
+* HTML CSS 
 * How to transform and scale elements.
 * How to hide and show elements.
 * How to smooth transaction.
