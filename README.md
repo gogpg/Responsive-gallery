@@ -1,6 +1,5 @@
 # Responsive-gallery
 Project for learning purposes. 
-### Learning:
 ***
 * HTML CSS 
 * How to transform and scale elements.
